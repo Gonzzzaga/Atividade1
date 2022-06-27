@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Cliente</title>
+</head>
+<body>
+
+    <h1>Americanas</h1> <br><br>
+
+    <h2>Criar seu cadastro</h2>
+
+    <p> veja seus pedidos de forma fácil, compre mais rápido e tenha uma experiência personalizada :)</p>
+    <p><sup>*</sup>campos obrigatorios</p>
+
+    <form action="/htmls/cadastro.html" method="post">
+
+        <label><sup>*</sup>Nome completo</label> <br>
+        <input placeholder="Insira seu nome" type="text" name="nome"> <br><br>
+
+        <label><sup>*</sup>Gênero</label>
+        <p>pra gente te conhecer um pouquinho melhor :)</p>
+        <input type="radio" name="genero" id="">Feminino
+        <input type="radio" name="genero" id="">Masculino
+        <input type="radio" name="genero" id="">Não informar
+        <br><br>
+
+        <label><sup>*</sup>Data de nascimento</label>
+        <p>necessário pra identificar a maioridade, no formato DD/MM/AAAA</p>
+        <input type="date" name="data" id="">
+        <br><br>
+
+        <label><sup>*</sup>CPF</label>
+        <p>necessário pra emissão das Notas Fiscais</p>
+        <input type="number" name="cpf" id="">
+        <br><br>
+
+        <label><sup>*</sup>Telefone</label>
+        <p>caso a gente precise entrar em contato sobre seus pedidos</p>
+        <input type="tel" name="telefone" id=""> <br>
+        <input type="checkbox" name="notificacao" id="">receber notificações por whatsapp
+        <br><br>
+
+        <label><sup>*</sup>E-mail</label><br>
+        <input type="email" name="email" id=""> <br>
+        <input type="checkbox" name="notificacao" id="">receber e-mails promocionais
+        <br><br>
+
+        <label><sup>*</sup>Senha</label>
+        <p>precisa ter entre 6 e 20 caracteres</p>
+        <input type="password" name="senha" id=""> <br>
+        <input type="checkbox" name="dados" id="">compartilhar meus dados com parceiros para ter conteúdos personalizados, veja como funciona.
+    <br><br><br>
+
+        <input type="button" value="criar seu cadastro">
+
+        <p>Não se preocupe, nosso site é seguro! Ao criar o seu cadastro, você concorda com a nossa <a href="/htmls/politica_de_privacidade.html">Política de Privacidade</a> </p> <br><br>
+
+        <p>já tem cadastro? <a href="/htmls/login.html">entrar</a></p>
+
+    </form>
+    
+</body>
+</html>
