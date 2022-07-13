@@ -1,0 +1,108 @@
+.block > div{
+    display: inline-block;
+    font-size: 25px;
+    width: 45%;
+}
+.block {
+    text-align: center;
+    height: 350px;
+}
+section {
+    border-bottom:solid 5px silver;
+    text-align: center;
+}
+body {
+    background-color: black;
+    color: rgb(255, 247, 247);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+#sessao1 {
+    height: 500px;
+    background-image: url('back2.webp');
+    background-size: 100%;
+}
+#logo {
+    margin-right: 1700px;
+    margin-top: 30px;
+}
+#inicio {
+    text-align: center;
+    font-size: 30px;
+}
+input {
+    height: 30px;
+    width: 500px;
+}
+#vamos {
+    width: 100px;
+    height: 35px;
+    background-color: red;
+    color: white;
+    border: none;
+}
+#idioma {
+    background-color: rgba(0, 0, 0, 0.404);
+    color: white;
+    height: 35px;
+    width: 100px;
+    position: absolute;
+    top: 10px;
+    right: 150px;
+    border-radius: 5px;
+}
+#entrar {
+    background-color: red;
+    color: white;
+    height: 35px;
+    width: 75px;
+    position: absolute;
+    top: 10px;
+    right: 60px;
+    border-radius: 5px;
+    border: none;
+}
+#entrar:hover {
+    cursor: pointer;
+}
+#vamos:hover {
+    cursor: pointer;
+}
+#perguntas{
+    width: 800px;
+    margin: auto;
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+.container {
+    display: none;
+}
+.botao {
+    background-color: rgb(36, 35, 35);
+    color: white;
+    font-size: 20px;
+    height: 60px;
+    cursor: pointer;
+    text-align: start;
+}
+#end > div{
+    display: inline-block;
+    color: grey;
+    text-align: top;
+}
+ul {
+    list-style: none;
+} 
+#idioma2 {
+   background-color: rgba(0, 0, 0, 0.192);
+   color: white;
+   height: 35px;
+   width: 100px;
+   position: absolute;
+   left: 600px;
+   border-radius: 5px;
+} 
+#netflix {
+    margin-top: 24px;
+}
